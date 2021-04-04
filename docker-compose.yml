@@ -23,4 +23,4 @@ services:
 
 secrets:
     db_password:
-        external: true
+       file: ./my_secret.txt
